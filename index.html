@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <title>Locadora Raíz</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-3">
+          <h2>Cadastro de filme</h2>
+
+          <form action="" id="formulario_filme">
+            <div class="form-group">
+              <label for="title">Título</label
+              ><input
+                type="text"
+                name="title"
+                class="form-control"
+                id="title"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="img">Foto</label
+              ><input
+                type="text"
+                name="img"
+                class="form-control"
+                id="img"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="category"></label
+              >
+              <select name="category" id="categoryListHTML" class="form-control" multiple></select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+          </form>
+        </div>
+        <div class="col-sm-12 col-md-9">
+
+          <div id="cardsContainer" class="card-columns">
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redom/3.27.1/redom.min.js"></script>
+    <script defer src="main.js"></script>
+  </body>
+</html>
